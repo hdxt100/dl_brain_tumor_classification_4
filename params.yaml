@@ -2,7 +2,7 @@ AUGMENTATION: True
 IMAGE_SIZE: [224, 224, 3]                                                           # as per VGG 16 model
 BATCH_SIZE: 16
 INCLUDE_TOP: False
-EPOCHS: 1
+EPOCHS: 5
 CLASSES: 4                                                                                      #   4 types of brain mri images
 WEIGHTS: imagenet                                                                        #  model vgg16 is based on "imagenet" dataset
 LEARNING_RATE: 0.01
